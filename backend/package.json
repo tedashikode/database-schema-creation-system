@@ -6,14 +6,13 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "dotenvx run -- node --watch index"
+    "start": "dotenvx run -- node --watch api/index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.6.5",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0",
     "@huggingface/inference": "^3.6.1",
     "cors": "^2.8.5",
     "express": "^4.21.2",
