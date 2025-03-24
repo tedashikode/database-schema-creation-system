@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "dotenvx run -- node --watch index"
+    "start": "dotenvx run -- node --watch api/index"
   },
   "keywords": [],
   "author": "",
